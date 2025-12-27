@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #020b2d;
+    color: #e6f0ff;
+}
+
+header {
+    background: linear-gradient(90deg, #020b2d, #041c5c);
+    text-align: center;
+    padding: 30px 10px;
+}
+
+
+.hero {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.hero img {
+    width: 600px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(0, 120, 255, 0.6);
+}
+
+
+.content, .timeline, .quote {
+    background: #041c5c;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+h2 {
+    color: #7db7ff;
+}
+
+
+button {
+    background: #0a3d91;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e5fd9;
+}
+
+
+footer {
+    background: #020b2d;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.animate {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.animate.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.books, .work {
+    background: #06245f;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.books ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.work p {
+    line-height: 1.6;
+}

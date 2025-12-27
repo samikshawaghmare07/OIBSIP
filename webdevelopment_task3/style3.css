@@ -1,0 +1,106 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fe91c0, #86a3df);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 420px;
+  background: #eed5fe;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 25px 17px 20px rgba(0,0,0,0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #ff6fa9;
+}
+
+.pending-title {
+  color: #ff9f43;
+}
+
+.completed-title {
+  color: #2ecc71;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid #ffd6e8;
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  background: #ff6fa9;
+  color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f7f9ff;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 15px;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.task-actions button {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.complete-btn {
+  background: #2ecc71;
+}
+
+.edit-btn {
+  background: #feca57;
+}
+
+.delete-btn {
+  background: #ff6b6b;
+}
+
+.time {
+  font-size: 11px;
+  color: #888;
+  margin-top: 5px;
+}
+
+#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
