@@ -1,4 +1,3 @@
-package task4;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -20,7 +19,7 @@ public class login {
             System.out.print("Choose option: ");
 
             int choice = sc.nextInt();
-            sc.nextLine(); // clear buffer
+            sc.nextLine(); 
 
             if (choice == 1) {
                 register();
