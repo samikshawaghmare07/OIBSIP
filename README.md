@@ -15,7 +15,8 @@ Vs code, Web browser (chrome), HTML5, CSS3, JAVA, JS
 
 LEVEL 2 of OIBSIP web development and designing
 
-TASK 1 : Calculator Web Application
+TASK 1 : Calculator Web Application  <img width="1366" height="768" alt="Screenshot 2025-12-28 150137" src="https://github.com/user-attachments/assets/78ef0b84-0021-4b98-b3b8-be6dfa80ce4a" />
+
 
 *Objective: Build a simple calculator to perform arithmetic operations and understand JS logic.
 
@@ -28,7 +29,9 @@ Implemented JS logic for calculations.
 
 *Outcome: A functional calculator with working operations. Learned DOM manipulation and JS conditions.
 
-TASK 2 : Tribute Page (Dr. B. R. Ambedkar)
+TASK 2 : Tribute Page (Dr. B. R. Ambedkar) <img width="1366" height="768" alt="Screenshot 2025-12-28 150156" src="https://github.com/user-attachments/assets/b73ca556-0e9e-4017-aece-a4a990cb9abe" />  <img width="1366" height="768" alt="Screenshot 2025-12-28 150201" src="https://github.com/user-attachments/assets/7e2df784-cef5-436c-97b2-61c657e8f559" />
+
+
 
 *Objective: Design a responsive tribute webpage with interactive features.
 
@@ -40,7 +43,8 @@ Added scroll animations and JS interactions.
 
 *Outcome: A visually appealing, dynamic tribute webpage. Enhanced skills in styling, animations, and content organization.
 
-TASK 3 : To-Do List Web Application
+TASK 3 : To-Do List Web Application <img width="1366" height="768" alt="Screenshot 2025-12-28 150242" src="https://github.com/user-attachments/assets/d74dcdd8-d0e0-4460-ae8a-4141cb31dff1" />
+
 
 *Objective: Develop a simple task management app for daily use.
 
@@ -53,7 +57,8 @@ Added separate display for completed tasks.
 
 *Outcome: A functional to-do app demonstrating JS arrays, conditionals, and DOM updates.
 
-TASK 4 : Login Authentication System (Java)
+TASK 4 : Login Authentication System (Java) <img width="1366" height="768" alt="Screenshot 2025-12-28 161808" src="https://github.com/user-attachments/assets/1f31a4bb-10d7-46ab-8b98-cab798bbc9a9" />
+
 
 *Objective: Understand basic authentication and Java programming fundamentals.
 
