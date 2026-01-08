@@ -1,70 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Tribute to Dr. B. R. Ambedkar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. B. R. Ambedkar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📜</text></svg>">
 </head>
-
 <body>
-
-    <header class="animate">
-        <h1>Dr. B. R. Ambedkar</h1>
-        <p>Architect of the Indian Constitution</p>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Dr. <span>Ambedkar</span></a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="nav-links" id="navLinks">
+                    <a href="#hero">Home</a>
+                    <a href="#education">Education</a>
+                    <a href="#books">Books</a>
+                    <a href="#contributions">Contributions</a>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <section class="hero animate">
-        <img src="ambedkar.jfif" alt="Dr. Ambedkar">
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <img src="babasaheb.jpg" alt="Dr B.R Ambedkar">
+            <div class="hero-content">
+                <h1>Dr. <span>B. R. Ambedkar</span></h1>
+                <div class="hero-subtitle">Architect of the Indian Constitution</div>
+                <p>Dr. Bhimrao Ramji Ambedkar was a visionary leader, social reformer, economist, jurist, and the chief architect of the Indian Constitution. He dedicated his life to eradicating social discrimination and establishing equality, justice, and human rights for all Indians.</p>
+                
+                <div class="hero-roles">
+                    <div class="role-chip">Social Reformer</div>
+                    <div class="role-chip">Economist</div>
+                    <div class="role-chip">Jurist</div>
+                    <div class="role-chip">Dalit Rights Activist</div>
+                    <div class="role-chip">Political Leader</div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="content animate">
-        <h2>About Dr. Ambedkar</h2>
-        <p id="aboutText">
-            Dr. Bhimrao Ramji Ambedkar was a visionary leader, jurist, and social reformer.
-        </p>
-        <button onclick="showMore()">Read More</button>
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Academic Journey</h2>
+                <p>Dr. Ambedkar was one of the most highly educated Indians of his time, with multiple degrees from prestigious institutions across the world.</p>
+            </div>
+            
+            <div class="education-cards">
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>B.A. (Economics & Political Science)</h3>
+                    <p>University of Bombay</p>
+                    <span class="education-year">1912</span>
+                </div>
+                
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>M.A. & PhD (Economics)</h3>
+                    <p>Columbia University, USA</p>
+                    <span class="education-year">1915 - 1917</span>
+                </div>
+                
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <h3>D.Sc. (Economics)</h3>
+                    <p>London School of Economics</p>
+                    <span class="education-year">1923</span>
+                </div>
+                
+                <div class="education-card fade-in">
+                    <div class="education-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Barrister-at-Law</h3>
+                    <p>Gray's Inn, London</p>
+                    <span class="education-year">1923</span>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="timeline animate">
-        <h2>Major Contributions</h2>
-        <ul id="list">
-            <li>Chief Architect of Indian Constitution</li>
-            <li>Social Justice Reformer</li>
-            <li>First Law Minister of India</li>
-        </ul>
-        <button onclick="addContribution()">Show More</button>
+    <!-- Books Section -->
+    <section id="books">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Literary Works</h2>
+                <p>Dr. Ambedkar was a prolific writer whose works on economics, law, sociology, and politics continue to influence Indian thought.</p>
+            </div>
+            
+            <div class="books-grid">
+                <div class="book-card fade-in">
+                    <div class="book-img">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="book-content">
+                        <h3>Annihilation of Caste</h3>
+                        <p>A revolutionary text critiquing the Hindu caste system and proposing the dismantling of caste hierarchy as essential for India's progress.</p>
+                        <div class="book-year">1936</div>
+                    </div>
+                </div>
+                
+                <div class="book-card fade-in">
+                    <div class="book-img">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="book-content">
+                        <h3>The Buddha and His Dhamma</h3>
+                        <p>Ambedkar's seminal work on Buddhism, presenting the Buddha's teachings as a rational, ethical, and socially engaged philosophy.</p>
+                        <div class="book-year">1957</div>
+                    </div>
+                </div>
+                
+                <div class="book-card fade-in">
+                    <div class="book-img">
+                        <i class="fas fa-scroll"></i>
+                    </div>
+                    <div class="book-content">
+                        <h3>Who Were the Shudras?</h3>
+                        <p>An historical analysis of the origins of the Shudra varna and how they came to be the fourth varna in the Indian caste system.</p>
+                        <div class="book-year">1946</div>
+                    </div>
+                </div>
+                
+                <div class="book-card fade-in">
+                    <div class="book-img">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="book-content">
+                        <h3>What Congress and Gandhi Have Done to the Untouchables</h3>
+                        <p>In essence, Ambedkar used the book to expose the gap between Congress's populist image and its actual treatment of the Untouchables.</p>
+                        <div class="book-year">1937</div>
+                    </div>
+                </div>
+                
+                <div class="book-card fade-in">
+                    <div class="book-img">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <div class="book-content">
+                        <h3>Thoughts on pakistan</h3>
+                        <p>Ambedkar states that “The League has only enlarged the original scheme of Pakistan.</p>
+                        <div class="book-year">1916</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="quote animate">
-        <h2>Inspirational Quote</h2>
-        <p>"Life should be great rather than long."</p>
-    </section>
-    <section class="books animate">
-        <h2>Books by Dr. B. R. Ambedkar</h2>
-        <ul id="bookList">
-            <li>Annihilation of Caste</li>
-            <li>The Problem of the Rupee</li>
-            <li>Buddha and his Dhamma</li>
-            <li>Who Were the Shudras?</li>
-        </ul>
-        <button onclick="loadBooks()">Show More Books</button>
+    <!-- Contributions Section -->
+    <section id="contributions">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Contributions to India</h2>
+                <p>Dr. Ambedkar's multifaceted contributions laid the foundation for modern India's democratic and social framework.</p>
+            </div>
+            
+            <div class="contributions-container">
+                <div class="contribution-card fade-in">
+                    <div class="contribution-icon">
+                        <i class="fas fa-balance-scale-right"></i>
+                    </div>
+                    <h3>Indian Constitution</h3>
+                    <p>As Chairman of the Drafting Committee, he played a pivotal role in framing the Constitution, ensuring fundamental rights and social justice.</p>
+                </div>
+                
+                <div class="contribution-card fade-in">
+                    <div class="contribution-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Social Justice</h3>
+                    <p>Championed the cause of the oppressed and worked to abolish untouchability, promoting equality and human dignity for all.</p>
+                </div>
+                
+                <div class="contribution-card fade-in">
+                    <div class="contribution-icon">
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h3>Women's Rights</h3>
+                    <p>Advocated for gender equality, women's education, and their right to property, laying groundwork for women's empowerment in India.</p>
+                </div>
+                
+                <div class="contribution-card fade-in">
+                    <div class="contribution-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Labor Reforms</h3>
+                    <p>Introduced labor welfare measures, including reduced working hours, maternity benefits, and the creation of employment exchanges.</p>
+                </div>
+                
+                <div class="contribution-card fade-in">
+                    <div class="contribution-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Water Policy</h3>
+                    <p>Initiated ambitious irrigation and hydroelectric projects, including the Damodar Valley and Hirakud projects for national development.</p>
+                </div>
+                
+                <div class="contribution-card fade-in">
+                    <div class="contribution-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <h3>Economic Planning</h3>
+                    <p>Advocated for a mixed economy with state ownership of key industries and central bank (RBI) establishment for financial stability.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="work animate">
-        <h2>Work & Contributions to India</h2>
-        <p id="workText">
-            Dr. Ambedkar played a crucial role in shaping modern India.
-        </p>
-        <button onclick="showWork()">Read More</button>
-    </section>
-
-
-    <footer class="animate">
-        <p>Tribute Page | Created with Respect 💙</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Dr. B. R. Ambedkar</h3>
+                <p>Architect of the Indian Constitution & Champion of Social Justice</p>
+                
+                <div class="quote">
+                    "I measure the progress of a community by the degree of progress which women have achieved."
+                </div>
+                
+                <div class="quote">
+                    "Constitution is not a mere lawyers' document, it is a vehicle of Life, and its spirit is always the spirit of Age."
+                </div>
+                
+                <div class="copyright">
+                    <p>Tribute Page Created with Respect and Admiration </p>
+                    <p>"Educate, Agitate, Organize" - Dr. B. R. Ambedkar</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="script2.js"></script>
 </body>
-
 </html>
