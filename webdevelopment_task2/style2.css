@@ -1,20 +1,3 @@
-/* ===== CSS Variables & Global Styles ===== */
-:root {
-    --primary-dark: #0a1f44;
-    --primary-blue: #1a3a6c;
-    --primary-medium: #2a5a9c;
-    --primary-light: #4a7bc8;
-    --primary-extra-light: #e8f0fe;
-    --accent-gold: #d4af37;
-    --accent-light: #f5f7fa;
-    --text-dark: #222222;
-    --text-light: #f8f9fa;
-    --shadow-soft: rgba(10, 31, 68, 0.1);
-    --shadow-medium: rgba(10, 31, 68, 0.15);
-    --shadow-strong: rgba(10, 31, 68, 0.25);
-    --transition: all 0.3s ease;
-    --border-radius: 12px;
-}
 
 * {
     margin: 0;
@@ -709,4 +692,20 @@ img {
         font-size: 1.1rem;
         padding: 15px;
     }
+}
+:root {
+    --primary-dark: #0a1f44;
+    --primary-blue: #1a3a6c;
+    --primary-medium: #2a5a9c;
+    --primary-light: #4a7bc8;
+    --primary-extra-light: #e8f0fe;
+    --accent-gold: #d4af37;
+    --accent-light: #f5f7fa;
+    --text-dark: #222222;
+    --text-light: #f8f9fa;
+    --shadow-soft: rgba(10, 31, 68, 0.1);
+    --shadow-medium: rgba(10, 31, 68, 0.15);
+    --shadow-strong: rgba(10, 31, 68, 0.25);
+    --transition: all 0.3s ease;
+    --border-radius: 12px;
 }
