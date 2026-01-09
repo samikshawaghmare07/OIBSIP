@@ -29,8 +29,9 @@ Implemented JS logic for calculations.
 
 *Outcome: A functional calculator with working operations. Learned DOM manipulation and JS conditions.
 
-TASK 2 : Tribute Page (Dr. B. R. Ambedkar) <img width="1366" height="768" alt="Screenshot 2025-12-28 150156" src="https://github.com/user-attachments/assets/b73ca556-0e9e-4017-aece-a4a990cb9abe" />  <img width="1366" height="768" alt="Screenshot 2025-12-28 150201" src="https://github.com/user-attachments/assets/7e2df784-cef5-436c-97b2-61c657e8f559" />
 
+TASK 2 : Tribute Page (Dr. B. R. Ambedkar)     <img width="1366" height="768" alt="Screenshot 2026-01-09 200356" src="https://github.com/user-attachments/assets/e82b8218-18de-4384-8a8d-ac112417bdb8" />
+<img width="1366" height="768" alt="Screenshot 2026-01-09 200406" src="https://github.com/user-attachments/assets/3669fb60-06a1-448c-b4fc-9ed0b381b4b6" />
 
 
 *Objective: Design a responsive tribute webpage with interactive features.
